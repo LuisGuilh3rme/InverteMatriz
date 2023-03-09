@@ -4,7 +4,7 @@ if (!int.TryParse(Console.ReadLine(), out int tam)) tam = 2;
 int[,] matOriginal = new int[tam, tam];
 int[,] matInvertida = new int[tam, tam];
 
-
+// Armazenando em variáveis o comprimento da linha e coluna:
 int linha = matOriginal.GetLength(0);
 int coluna = matOriginal.GetLength(1);
 
